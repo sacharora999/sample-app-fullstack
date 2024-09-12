@@ -1,4 +1,8 @@
 def registry = 'https://sacharora47.jfrog.io'
+def imageName = 'sacharora47.jfrog.io/sacharora-docker/ttrend'
+def version   = '2.0.2'
+
+
 pipeline {
     agent {
         node {
@@ -52,8 +56,7 @@ environment {
     }   
 
 
-   def imageName = 'sacharora47.jfrog.io/sacharora-docker/ttrend'
-   def version   = '2.0.2'
+   
     stage(" Docker Build ") {
       steps {
         script {
