@@ -71,7 +71,7 @@ environment {
         steps {
             script {
                echo '<--------------- Docker Publish Started --------------->'  
-                docker.withRegistry(registry, 'artifactory_token'){
+                docker.withRegistry(registry, 'artfiact-cred'){
                     app.push()
                 }    
                echo '<--------------- Docker Publish Ended --------------->'  
