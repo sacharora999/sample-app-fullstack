@@ -1,5 +1,5 @@
 def registry = 'https://sacharora47.jfrog.io'
-def imageName = 'sacharora47.jfrog.io/sacharora-docker/ttrend'
+def imageName = 'sacharora47.jfrog.io/sacharora-docker-local/ttrend'
 def version   = '2.0.2'
 
 
