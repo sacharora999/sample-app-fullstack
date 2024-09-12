@@ -52,7 +52,7 @@ environment {
     }   
 
 
-   def imageName = 'sacharora47.jfrog.io/valaxy-docker/ttrend'
+   def imageName = 'sacharora47.jfrog.io/sacharora-docker/ttrend'
    def version   = '2.0.2'
     stage(" Docker Build ") {
       steps {
